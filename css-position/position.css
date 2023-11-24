@@ -1,0 +1,43 @@
+div.div {
+  height: 200px;
+  width: 200px;
+}
+
+div.static {
+  position: static; /* Default */
+  background-color: blueviolet;
+  top: 200px;
+  right: 40vw;
+}
+
+div.relative {
+  position: relative;
+  background-color: aquamarine;
+  left: 50vw;
+}
+
+div.fixed {
+  position: fixed;
+  background-color: yellow;
+}
+
+div.sticky {
+  position: sticky;
+  border: 5px solid red;
+  z-index: 1;
+  float: right;
+}
+
+div.absolute {
+  position: absolute;
+  border: 5px solid black;
+}
+
+div.content {
+  width: 30vw;
+  margin: auto;
+}
+
+div.space{
+    height: 150vh;
+}
